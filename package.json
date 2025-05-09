@@ -1,0 +1,16 @@
+{
+  "name": "khan-proxy",
+  "version": "1.0.0",
+  "description": "Proxy para Khan Academy com injeção de script",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
